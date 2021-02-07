@@ -1,0 +1,130 @@
+body{
+    font-family: 'Montserrat';
+}
+#title {
+    background-color: #ff4c68;
+    color:#fff;
+    
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+h1 {
+    font-family: "Montserrat-Black",sans-serif;
+    line-height: 1.5;
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+h3{
+    font-family:"Montserrat-Bold",sans-serif;
+  
+}
+.navbar{
+    padding:0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nac-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light",sans-serif;
+}
+.image{
+    width: 60%;
+    transform: rotate(25deg);
+    position:absolute;
+    right: 30%;
+}
+.downloadbtn{
+    margin:5% 3% 5% 0;
+
+}
+.icon{
+    color: #e89f71;
+    margin-bottom: 10px;
+}
+ .icon:hover{
+    color:#ff4b5c;
+}
+#features{
+    background-color: white;
+    position: relative;
+    padding:7% 15%;
+}
+.featurebox{
+  text-align: center;
+  
+}
+#testimonials{
+    text-align: center;
+  
+    background-color: #ef8172;
+    color:#fff;
+}
+h2{
+    font-family:"Montserrat-Bold",sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonials-img{
+width: 10%;
+border-radius: 100%;
+margin-top:10px;
+margin-right: 15px;
+}
+#press{
+    text-align: center;
+    padding-bottom: 3%;
+    background-color: #ef8172;
+}
+.press-logo{
+    width:15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+.pricing-column{
+    padding:3% 2%;
+}
+@media (max-width:1024px){
+    #title{
+        text-align: center;
+    }
+    .image{
+        position: static;
+        transform: rotate(0);
+
+    }
+}
+#cta{
+    text-align: center;
+    padding:7% 15%;
+    color: white;
+    background-color: #ff4c68;
+}
+.ctn-heading{
+    font-family:"Montserrat-Black",sans-serif;
+    font-size: 3.5rem;
+    
+}
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 5% 15%;
+}
+.social{
+    margin:3% 1.5%;
+}
